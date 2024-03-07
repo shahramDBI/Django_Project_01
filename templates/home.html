@@ -1,12 +1,17 @@
-{% extends "base.html" %} {% block head %}
-<title>Home</title>
+{% extends "base.html" %}
+
+{% block head %}
+    <title>Home</title>
 {% endblock %} 
 {% block content %}
-<ul>
-  {% for message in message_list %}
 
-  <li>{{ message.text }}</li>
+  {% for message in message_list %}
+    <section class="container">
+        <section class="col-6">
+            <h1>{{ message.text }}</h1>
+        </section>
+    </section>
 
   {% endfor %}
-</ul>
+
 {% endblock %}
