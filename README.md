@@ -1,2 +1,2 @@
-## Django Project 01
-# Django blog simple (Blog, Comments)
+# Django Project 01
+## Django blog simple (Blog, Comments)
